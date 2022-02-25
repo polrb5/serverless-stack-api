@@ -9,7 +9,8 @@ export const main = handler(async (event, context) => {
     Item: {
       // The attributes of the item to be created
       // userId: event.requestContext.identity.cognitoIdentityId, // The id of the author
-      userId: "eu-north-1:19ddf2ae-f959-4ac7-b273-44a0d30acef9",
+      // userId: "eu-north-1:19ddf2ae-f959-4ac7-b273-44a0d30acef9",
+      userId: "123",
       noteId: uuid.v1(), // A unique uuid
       content: data.content, // Parsed from request body
       attachment: data.attachment, // Parsed from request body
