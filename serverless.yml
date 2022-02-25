@@ -57,8 +57,8 @@ functions:
           path: notes
           method: post
           cors: true
-          authorizer: aws_iam
-            # type: aws_iam
+          authorizer: 
+            type: aws_iam
   get:
     # Defines an HTTP API endpoint that calls the main function in get.js
     # - path: url path is /notes/{id}
